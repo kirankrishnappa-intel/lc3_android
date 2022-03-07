@@ -1,4 +1,4 @@
-install_headers('include/lc3.h include/lc3_private.h')
+install_headers('include/lc3.h', 'include/lc3_private.h')
 
 inc = include_directories('include')
 
