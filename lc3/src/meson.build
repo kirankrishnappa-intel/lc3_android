@@ -19,5 +19,6 @@ lib_m = cc.find_library('m')
 
 lc3lib = shared_library('lc3', lc3_sources,
 			dependencies: lib_m,
-			include_directories: inc)
+			include_directories: inc,
+			install: true)
 
